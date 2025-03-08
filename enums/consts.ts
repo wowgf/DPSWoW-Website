@@ -1,0 +1,20 @@
+export enum MITT {
+  HIDE_TOP = 'HIDE_TOP',
+  SHOW_TOP = 'SHOW_TOP',
+  // 触底
+  REACH_BOTTOM = 'REACH_BOTTOM',
+  // 向上移动
+  MOVE_UP = 'MOVE_UP',
+  // 向下移动
+  MOVE_DOWN = 'MOVE_DOWN',
+  // 接收到消息
+  RECEIVE_MESSAGE = 'RECEIVE_MESSAGE',
+  // 更新页面底部状态
+  UPDATE_PAGE_FOOTER = 'UPDATE_PAGE_FOOTER',
+  // 更新页面滚动轴状态
+  UPDATE_PAGE_SCROLLBAR_STATUS = 'UPDATE_PAGE_SCROLLBAR_STATUS',
+  // 滚动到最顶部
+  ON_SCROLL_TO_TOP = 'ON_SCROLL_TO_TOP',
+  // 显示反馈
+  SHOW_FEEDBACK = "SHOW_FEEDBACK"
+}

@@ -1,0 +1,37 @@
+.theme-bg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
+}
+
+.theme-bg-2 {
+  background-color: #29292c;
+}
+
+// 抖动动画
+@keyframes shake {
+  10% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1.1) rotate(15deg);
+  }
+  35% {
+    transform: scale(1.1) rotate(-10deg);
+  }
+  40% {
+    transform: scale(1.1) rotate(5deg);
+  }
+  45% {
+    transform: scale(1.1) rotate(-5deg);
+  }
+  50% {
+    transform: scale(1.1) rotate(5deg);
+  }
+  70%,
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}

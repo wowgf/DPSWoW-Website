@@ -1,0 +1,38 @@
+body[arco-theme="dark"] {
+  --primary-1: 255, 236, 232 !important;
+  --primary-2: 254, 208, 201 !important;
+  --primary-3: 254, 179, 170 !important;
+  --primary-4: 253, 147, 140 !important;
+  --primary-5: 253, 114, 109 !important;
+  --primary-6: 252, 79, 79 !important;
+  --primary-7: 208, 49, 54 !important;
+  --primary-8: 164, 26, 35 !important;
+  --primary-9: 120, 9, 21 !important;
+  --primary-10: 77, 0, 10 !important;
+
+  // --primary-1: 255, 253, 232 !important;
+  // --primary-2: 254, 244, 185 !important;
+  // --primary-3: 252, 233, 138 !important;
+  // --primary-4: 251, 219, 91 !important;
+  // --primary-5: 249, 202, 45 !important;
+  // --primary-6: 248, 183, 0 !important;
+  // --primary-7: 205, 144, 0 !important;
+  // --primary-8: 162, 108, 0 !important;
+  // --primary-9: 119, 76, 0 !important;
+  // --primary-10: 77, 46, 0 !important;
+
+  // @red-1: rgb(255, 253, 232);
+  // @red-2: rgb(254, 244, 185);
+  // @red-3: rgb(252, 233, 138);
+  // @red-4: rgb(251, 219, 91);
+  // @red-5: rgb(249, 202, 45);
+  // @red-6: rgb(248, 183, 0);
+  // @red-7: rgb(205, 144, 0);
+  // @red-8: rgb(162, 108, 0);
+  // @red-9: rgb(119, 76, 0);
+  // @red-10: rgb(77, 46, 0);
+}
+
+.arco-btn-primary{
+  // border-color: theme('colors.yellow.500') !important;
+}

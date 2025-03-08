@@ -1,0 +1,62 @@
+// $themeColor: #3bc2bb;
+$themeColor: #fc4f4f;
+$themeBlackColor: #030812;
+
+/* 行为相关颜色 */
+// $mz-color-primary: #7368F2;
+// $mz-color-primary-mask: #7368f214;
+// $mz-color-success: #4cd964;
+// $mz-color-warning: #f0ad4e;
+// $mz-color-error: #dd524d;
+
+$mz-color-primary: $themeColor;
+$mz-color-primary-mask: var(--el-color-primary-light-2);
+$mz-color-success: #4cd964;
+$mz-color-warning: #f0ad4e;
+$mz-color-error: #dd524d;
+
+/* 文字基本颜色 */
+$mz-text-color: #333; //基本色
+$mz-text-color-inverse: #fff; //反色
+$mz-text-color-grey: #9ca3af; //辅助灰色，如加载更多的提示信息
+$mz-text-color-placeholder: #808080;
+$mz-text-color-disable: #c0c0c0;
+
+/* 背景颜色 */
+$mz-bg-color: #ffffff;
+$mz-bg-color-grey: #f8f8fb;
+$mz-bg-color-hover: var(--el-color-primary-light-9); //点击状态颜色
+$mz-bg-color-mask: rgba(0, 0, 0, 0.4); //遮罩颜色
+
+/* 边框颜色 */
+$mz-border-color: #e5e5e5;
+
+/* header的top不同高度*/
+$header-height-pc: 60px; // pc设备
+$header-height-mb: 50px; // 手机设备
+$header-height-sub-mb: 40px; // 手机设备
+
+/* header的分类不同高度*/
+$header-cat-height-pc: 40px;
+$header-cat-height-mb: 50px;
+
+/* header的分类不同高度*/
+$header-cat-sub-height-pc: 35px;
+$header-cat-sub-height-mb: 50px;
+
+/* 手机设备屏幕宽度*/
+$mb-width: 940px;
+
+/* 导航页header高度 */
+$nav-header-height: 60px;
+
+/** 基础padding */
+$base-padding: 20px;
+/** 基础圆角 */
+$base-border-radius: 8px;
+
+/** 字体大小 */
+$font-size-small: 12px;
+$font-size-base: 14px;
+$font-size-medium: 16px;
+$font-size-large: 18px;

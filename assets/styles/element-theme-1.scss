@@ -1,0 +1,28 @@
+:root {
+  color-scheme: light;
+  --el-color-white: #ffffff;
+  --el-color-black: #000000;
+  --el-color-primary: rgb(252, 79, 79) !important;
+  --el-color-primary-light-1: rgb(255, 236, 232) !important;
+  --el-color-primary-light-2: rgb(254, 208, 201) !important;
+  --el-color-primary-light-3: rgb(254, 179, 170) !important;
+  --el-color-primary-light-4: rgb(253, 147, 140) !important;
+  --el-color-primary-light-5: rgb(253, 114, 109) !important;
+  --el-color-primary-light-6: rgb(252, 79, 79) !important;
+  --el-color-primary-light-7: rgb(208, 49, 54) !important;
+  --el-color-primary-light-8: rgb(164, 26, 35) !important;
+  --el-color-primary-light-9: rgb(120, 9, 21) !important;
+  --el-color-primary-dark-2: rgb(77, 0, 10) !important;
+}
+
+.transparent-table {
+  // background-color: transparent !important;
+}
+
+.transparent-table,
+.transparent-table th,
+.transparent-table td,
+.transparent-table .cell {
+  // background-color: transparent !important;
+  // border-color: transparent !important;
+}

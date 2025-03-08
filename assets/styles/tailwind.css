@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply dark:bg-[#030812];
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1032px;
+  }
+}
