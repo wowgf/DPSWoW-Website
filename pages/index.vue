@@ -19,7 +19,9 @@
               <span class="text-[#FC4F4F]">输出模拟器</span>
             </h3>
           </div>
-          <section class="mt-7 text-base font-normal leading-[26px] text-[#B2B2B2]">
+          <section
+            class="mt-7 text-base font-normal leading-[26px] text-[#B2B2B2]"
+          >
             <p>低保纠结症？不会配装？输出打不高？</p>
             <p>我们要做一款让小白都会用的魔兽DPS模拟器</p>
             <p class="text-[#FFE927]">Tips：产品目前处于Beta测试阶段</p>
@@ -36,18 +38,12 @@
           </div>
           <div class="flex mt-[28px]">
             <nuxt-link to="/home">
-              <button class="action-btn action-btn-1 text-black w-[151px] mr-[40px]">
+              <button
+                class="action-btn action-btn-1 text-black w-[151px] mr-[40px]"
+              >
                 在线使用
               </button>
             </nuxt-link>
-            <!-- <a :href="websiteConfig.common.inviteGetLink" target="_blank"> -->
-            <!-- <button
-              class="action-btn w-[185px] border-[1px] border-[#CBCBCB] text-[#CBCBCB] border-solid"
-              @click="getInviteCodeModal()"
-            >
-              <span>获取邀请码</span>
-            </button> -->
-            <!-- </a> -->
             <a>
               <button
                 class="action-btn w-[185px] border-[1px] border-[#CBCBCB] text-[#CBCBCB] border-solid"
@@ -124,7 +120,6 @@ import bilibiliQrCode from "~/assets/images/qrcode/bilibili.png";
 import douyinQrCode from "~/assets/images/qrcode/douyin.png";
 import wechatQrCode from "~/assets/images/wechat-mp-qrcode.jpg";
 import wechatVideoQrCode from "~/assets/images/wechat-video-qrcode.png";
-import { getInviteCodeModal } from "~/cool/utils/invite";
 import { useAppStore } from "~/store/app";
 import { CLICK_INSTALL_PWA_MENU } from "~/consts/trackEvent";
 import { usePwaStore } from "~/store/pwa";
@@ -140,8 +135,7 @@ const mediaList = [
   {
     // name: "B站",
     img: bilibiliImg,
-    qrcode:
-      "/CUSTOM_OSS_PATH/2dedb66be4c6439e9298afca5b68de33_bilibili.png",
+    qrcode: "/CUSTOM_OSS_PATH/2dedb66be4c6439e9298afca5b68de33_bilibili.png",
     link: "https://space.bilibili.com/3546791958022519",
     desc: "魔兽工坊B站账号",
   },
@@ -163,8 +157,7 @@ const mediaList = [
   {
     // name: "抖音",
     img: douyinImg,
-    qrcode:
-      "/CUSTOM_OSS_PATH/359ad167e1354e1181c707086c457de1_douyin.png",
+    qrcode: "/CUSTOM_OSS_PATH/359ad167e1354e1181c707086c457de1_douyin.png",
     desc: "魔兽工坊抖音",
   },
 ];
@@ -201,7 +194,6 @@ function scrollTo(id: string) {
     behavior: "smooth", // 平滑滚动
   });
 }
-
 
 function onInstallClick() {
   installPwa();

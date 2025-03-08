@@ -31,7 +31,7 @@
         </div>
         <div class="flex items-center h-full">
           <a href="https://beian.miit.gov.cn/" target="_blank"
-            >冀ICP备20012219号-5</a
+            ></a
           >
         </div>
       </div>

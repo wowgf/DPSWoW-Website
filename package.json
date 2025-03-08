@@ -1,6 +1,6 @@
 {
-  "name": "mz-wow-dps-fe",
-  "private": true,
+  "name": "DPSWoW-Website",
+  "version": "0.0.1",
   "scripts": {
     "build": "nuxt build",
     "build:prod": "nuxt generate --dotenv .env.production",

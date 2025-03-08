@@ -424,31 +424,7 @@
         ref="actionRef"
         class="sticky bottom-0 mt-8 action-wrap bg-[#030812] py-3 border-t-[1px] border-t-[#4e535c] z-10"
       >
-        <div v-if="needPoints > 0" class="mb-3">
-          <span class="mr-1">消耗积分：</span>
-          <div class="text-xl text-[#23D3A4] inline-flex">
-            <div class="font-bold">
-              <span>{{ needPoints }}</span>
-              <span class="mx-1">/</span>
-              <span>{{ userInfo?.points }}</span>
-            </div>
-            <span class="text-[16px]">（</span>
-            <span class="font-bold mx-[2px]">
-              {{ allComboNum }}
-            </span>
-            <span class="text-[16px]">种组合）</span>
-            <!-- <span class="text-yellow-400 cursor-pointer text-[13px]">获取积分</span> -->
-          </div>
-          <div class="text-sm text-gray-400">
-            （每1种组合消耗{{ needPoints }}积分）
-            <GetPoints>
-              <span class="text-yellow-500 cursor-pointer text-[14px]">
-                获取积分
-              </span>
-            </GetPoints>
-          </div>
-        </div>
-        <div v-else-if="showCombNum" class="mb-3 text-xl text-themeGreen">
+        <div v-if="showCombNum" class="mb-3 text-xl text-themeGreen">
           <span class="text-[16px]">已选择</span>
           <span class="font-bold mx-[2px]">
             {{ allComboNum }}
@@ -479,7 +455,7 @@
         </div>
         <!-- 如果没有使用过则显示 -->
         <div
-          v-if="showToBottom&&!hideToBottom"
+          v-if="showToBottom && !hideToBottom"
           class="absolute flex justify-center w-full bottom-2 scroll-tip-wrap"
         >
           <icon-down

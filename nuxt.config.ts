@@ -25,16 +25,8 @@ export default defineNuxtConfig({
         { name: 'og:description', content: '小白都会用的魔兽DPS模拟器' },
         { name: 'og:type', content: 'website' },
         { name: 'og:url', content: 'https://dps.wowgf.com' },
-        // { name: 'og:image', content: 'https://yourwebsite.com/og-image.jpg' },
       ],
       script: [
-        // {
-        //   src: '/js/tooltips.vue.min.js',
-        //   async: true
-        // }
-        // {
-        //   src: 'https://wow.zamimg.com/js/tooltips.js'
-        // }
       ],
     },
   },
