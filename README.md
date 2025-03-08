@@ -14,8 +14,12 @@
 - ✅ **排行榜**：查看其他玩家的DPS跑分排行和配装
 
 ## 界面预览
-### 首页
-![首页](public/images/preview/home.png)
+
+### 官网
+![官网](public/images/preview/website.png)
+
+### 功能导航
+![功能导航](public/images/preview/home.png)
 
 ### 模拟器
 ![模拟器界面](public/images/preview/quick.png)
@@ -25,7 +29,9 @@
 
 ### 模拟结果
 ![最佳掉落结果](public/images/preview/result.png)
+
 ![模拟结果](public/images/preview/result2.png)
+
 ![模拟结果](public/images/preview/result3.png)
 
 - **多语言支持**：暂不支持。
