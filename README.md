@@ -2,7 +2,8 @@
 
 ![License](https://img.shields.io/badge/License-Commons%20Clause%20%2B%20MIT-blue)  ![Version](https://img.shields.io/badge/Version-1.0.0-green)  ![Downloads](https://img.shields.io/npm/dt/wowdps-server)
 
-**DPSWoW-Website**项目 是 [魔兽DPS模拟器（dpswow.com）](https://dpswow.com) 的前端网站，主要用于管理战斗设置数据、Buff消耗品等数据。 
+**DPSWoW-Website**项目 是 <a href="https://dpswow.com" target="_blank">魔兽DPS模拟器（dpswow.com）</a>前端网站的代码库。
+
 
 ## ✨ 功能特性
 
